@@ -14,6 +14,9 @@ namespace Herencia
 
         public void Imprimir()
         {
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("**********************************");
             Console.WriteLine($"Nombre: {Nombre}"); //estos atributos (Nombre, Edad, Especie, Habitat) son heredados de la clase animal
             Console.WriteLine($"Edad: {Edad} Años");
             Console.WriteLine($"Especie: {Especie}");

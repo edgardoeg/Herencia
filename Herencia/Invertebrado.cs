@@ -11,6 +11,9 @@ namespace Herencia
 
         public void Imprimir()
         {
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("**********************************");
             Console.WriteLine($"Nombre: {Nombre}"); 
             Console.WriteLine($"Edad: {Edad}  Años");
             Console.WriteLine($"Especie: {Especie}");
